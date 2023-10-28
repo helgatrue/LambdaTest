@@ -1,6 +1,7 @@
 const {defineConfig} = require('cypress')
 
 module.exports = defineConfig({
+    projectId: 'a1',
     video: true,
     videoCompression: true,
     e2e: {

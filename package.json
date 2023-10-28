@@ -1,8 +1,11 @@
 {
   "dependencies": {
-    "cypress": "^13.3.3"
+    "cypress": "^13.3.3",
   },
   "devDependencies": {
     "cypress-axe": "^1.5.0"
+  },
+  "scripts": {
+    "cy:run": "cypress run",
   }
 }
