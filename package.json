@@ -1,11 +1,12 @@
 {
   "dependencies": {
     "cypress": "^13.3.3",
+    "cypress-parallel": "^0.13.0"
   },
   "devDependencies": {
     "cypress-axe": "^1.5.0"
   },
   "scripts": {
-    "cy:run": "cypress run",
+    "cy:run": "cypress run"
   }
 }
