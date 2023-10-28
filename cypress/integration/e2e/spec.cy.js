@@ -1,4 +1,4 @@
-import "cypress-axe"
+import "../../../node_modules/cypress-axe"
 
 describe("Test Scenario 1", () => {
     beforeEach(() => {
@@ -61,6 +61,5 @@ describe("Test Scenario 2", () => {
             cy.get('#seleniumform').submit()
             cy.contains('Thanks for contacting us, we will get back to you shortly.')
         })
-
     }
 )

@@ -24,6 +24,14 @@ To open all tests
 npx cypress open
 ```
 
+## To Run in lambdatest cloud environment
+```sh
+lambdatest-cypress run
+```
+
+## Gitpod URL
+https://helgatrue-cypresstest-tzc3a0a5g7s.ws-eu105.gitpod.io/
+
 - Videos and snapshots are located in __cypress/screenshots__ folder by failed.
 - Videos are available in __cypress/screenshots/videos__ folder by passed.
 - Terminal logs are enabled via __run__ command.

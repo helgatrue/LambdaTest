@@ -10,5 +10,13 @@ module.exports = defineConfig({
         specPattern: [
             "cypress/integration/e2e/spec.cy.js",
         ],
+        setupNodeEvents(on, config) {
+            on('task', {
+              log(message) {
+                console.log(message);
+                return null;
+              },
+            });
+          },
     }
 })
