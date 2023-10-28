@@ -8,7 +8,7 @@ describe("Test Scenario 1", () => {
             .click()
     })
 
-    it.only("Change slider value from 15 to 95 with mouse click", function () {
+    it("Change slider value from 15 to 95 with mouse click", function () {
         cy.get('h4').contains('Default value 5').scrollIntoView();
         cy.get('.sp__range-success > .sp__range')
             .then($el => $el[0].stepUp(80))
